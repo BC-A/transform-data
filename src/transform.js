@@ -13,8 +13,8 @@ const transformedData = {
   },
   b: {
     x1: proofData.pi_b.x[0],
-    y1: proofData.pi_b.y[0],
-    x2: proofData.pi_b.x[1],
+    y1: proofData.pi_b.x[1],
+    x2: proofData.pi_b.y[0],
     y2: proofData.pi_b.y[1]
   },
   c: {
@@ -39,20 +39,20 @@ const transformedParameter = {
   },
   beta: {
     x1: verificationKeyData.vk_beta_2.x[0],
-    y1: verificationKeyData.vk_beta_2.y[0],
-    x2: verificationKeyData.vk_beta_2.x[1],
+    y1: verificationKeyData.vk_beta_2.x[1],
+    x2: verificationKeyData.vk_beta_2.y[0],
     y2: verificationKeyData.vk_beta_2.y[1]
   },
   gamma: {
     x1: verificationKeyData.vk_gamma_2.x[0],
-    y1: verificationKeyData.vk_gamma_2.y[0],
-    x2: verificationKeyData.vk_gamma_2.x[1],
+    y1: verificationKeyData.vk_gamma_2.x[1],
+    x2: verificationKeyData.vk_gamma_2.y[0],
     y2: verificationKeyData.vk_gamma_2.y[1]
   },
   delta: {
     x1: verificationKeyData.vk_delta_2.x[0],
-    y1: verificationKeyData.vk_delta_2.y[0],
-    x2: verificationKeyData.vk_delta_2.x[1],
+    y1: verificationKeyData.vk_delta_2.x[1],
+    x2: verificationKeyData.vk_delta_2.y[0],
     y2: verificationKeyData.vk_delta_2.y[1]
   },
   ics: verificationKeyData.IC.map(point => ({
